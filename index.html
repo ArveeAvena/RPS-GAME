@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS GAME</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e0ea0b576.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="MainBody">
+
+    <img class="title" src="Title.png" alt="Title Image">
+
+   
+    <div class="buttons">
+
+    <button id="RockButton"><i class="fa-solid fa-hand-back-fist"></i> <br><span class="rocks">ROCK</span></button>
+
+    <button id="PaperButton"><i class="fa-solid fa-hand"></i> <br> <span class="papers">PAPER</span></button>
+
+    <button id="ScissorButton"><i class="fa-solid fa-hand-scissors fa-rotate-90"></i> <br> <span class="scissors">SCISSOR</span></button> <br> <br>
+
+</div>
+
+
+   
+    
+    <div class="Rockresult">
+        <button id="myRock"><i class="fa-solid fa-hand-back-fist"></i> <br> <span class="you"></span></button>
+        <button id="myPaper"><i class="fa-solid fa-hand"></i>  <br> <span class="you"></span></button>
+        <button id="myScissor"><i class="fa-solid fa-hand-scissors fa-rotate-90"></i> <br> <span class="you"></span></button>
+
+        <button id="myRock2"><i class="fa-solid fa-hand"></i>  <br> <span class="you"></span></button>
+        <button id="myRock3"><i class="fa-solid fa-hand-scissors fa-rotate-90"></i> <br> <span class="you"></span></button>
+
+        
+        <button id="CompRock"><i class="fa-solid fa-hand-back-fist"></i> <br> <span class="you"></span></button>
+        <button id="CompRock1"><i class="fa-solid fa-hand-back-fist"></i> <br> <span class="you"></span></button>
+        <button id="CompRock2"><i class="fa-solid fa-hand"></i>  <br> <span class="you"></span></button>
+        <button id="CompRock3"><i class="fa-solid fa-hand-scissors fa-rotate-90"></i> <br> <span class="you"></span></button>
+
+        
+    </div>
+    
+<div id="moves">
+<div class="YourMove">YOU</div> 
+<div class="YourMoves">COMPUTER</div>
+</div>
+    <button id="resets">RESET</button>
+    
+    <div class="res">
+        <p id="result">RESULT</p>
+    </div>
+       
+    <div class="scores">
+    <div id="score">YOUR SCORE: </div>
+    <div id="computerscore">COMPUTER:</div>
+</div>
+</div>
+
+
+
+    <script src="main.js"></script>
+
+    <script src="rspgame.js"></script>
+</body>
+</html>
